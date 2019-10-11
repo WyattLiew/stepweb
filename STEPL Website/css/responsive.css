@@ -28,7 +28,7 @@
     width: 100%;
     height: 100vh;
     background: #fff;
-    top: 65px;
+    top: 55px;
     text-align: center;
     transition: .5s;
     left: 0;
@@ -45,10 +45,25 @@
     display: block;
     font-size: 20px;
     text-align: center;
+    padding:0;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .navbar__logo {
+    width: 100px;
+    height: 30px;
+  }
+  .navbar__ul li a {
+    padding:0;
+  }
+  .navbar__ul.responsive li a {
+    float: none;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding:0;
+  }
   .main-slider__slidershow {
     height: 400px;
 }
