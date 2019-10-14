@@ -68,7 +68,10 @@
     height: 400px;
 }
   .main-slider__navigation {
-    left: 38%;
-    top: 50%;
+    left: 35%;
+    top: 45%;
+  }
+  .arrow {
+    display: none;
   }
 }

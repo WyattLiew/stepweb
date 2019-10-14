@@ -1,6 +1,7 @@
 html,body {
 	margin: 0;
 	padding: 0;
+	font-family: "Source Sans", sans-serif;
 }
 
 nav {
@@ -207,3 +208,80 @@ input[name="mSlideRadio"] {
 	-webkit-animation-play-state:running;
 }
 
+
+/** Main what we do **/
+
+.main__whatwedo {
+	margin: 6rem; 
+}
+
+.container {
+	width: 90%;
+	max-width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 67px;
+}
+
+.section-heading__whatwedo {
+	text-align: center;
+	margin-bottom: 10rem;
+}
+
+.section-heading__whatwedo h3 {
+	margin-top: 2rem;
+	color: #881C67;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.section-heading__whatwedo h1 {
+	font-size: 4rem;
+	color: #666666;
+}
+
+.section-heading__whatwedo p {
+	font-size: 1.6rem;
+	font-weight: normal;
+	color: #414042;
+}
+
+.section-heading__whatwedo img {
+	margin-top: 3rem;
+	width: 50%;
+	height: 50%;
+	border: 4px solid #666666;
+}
+
+/** main what we believe **/
+
+.section-heading__whatwebelieve {
+	text-align: center;
+	margin: 10rem 0;
+}
+
+.section-heading__whatwebelieve h3 {
+	margin-top: 2rem;
+	color: #881C67;
+	font-size: 28px;
+	font-weight: normal;
+}
+
+.section-heading__whatwebelieve h1 {
+	font-size: 80px;
+	color: #666666;
+}
+
+.section-heading__whatwebelieve p {
+	font-size: 28px;
+	font-weight: normal;
+	color: #414042;
+}
+
+.section-heading__whatwebelieve img {
+	margin-top: 3rem;
+	width: 50%;
+	height: 50%;
+	border: 4px solid #666666;
+}
