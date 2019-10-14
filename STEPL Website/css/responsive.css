@@ -285,7 +285,7 @@
 }
 
 .section-heading__whatwebelieve p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #414042;
   margin: 0 !important;
@@ -389,7 +389,7 @@
 }
   .main-slider__navigation {
     left: 35%;
-    top: 50%;
+    top: 45%;
   }
   .arrow {
     display: none;
