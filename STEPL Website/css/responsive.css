@@ -197,18 +197,18 @@
 }
 
 .section-heading__ourwork h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #666666;
 }
 
 .section-heading__ourwork h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #666666;
   margin: 3rem 0!important;
 }
 
 .section-heading__ourservice h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #666666;
 }
 
@@ -227,7 +227,7 @@
 }
 
 .section-heading__howwework h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #666666;
 }
 
@@ -246,7 +246,7 @@
 }
 
 .section-heading__ourcapabilities h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #666666;
 }
 
@@ -395,6 +395,11 @@
     display: none;
   }
 
-
 }
 
+@media screen and (min-width: 768px) { 
+ .main-slider__navigation {
+    left: 45%;
+    top: 88%;
+  }
+}
