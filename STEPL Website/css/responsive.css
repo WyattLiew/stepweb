@@ -268,7 +268,7 @@
   @media screen and (max-width: 600px) {
 
 .section-heading__whatwedo h1 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin:0 !important;
 }
 
@@ -389,7 +389,7 @@
 }
   .main-slider__navigation {
     left: 35%;
-    top: 45%;
+    top: 50%;
   }
   .arrow {
     display: none;
