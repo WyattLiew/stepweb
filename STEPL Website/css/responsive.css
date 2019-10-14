@@ -49,6 +49,326 @@
   }
 }
 
+/** main page **/
+@media screen and (max-width: 1400px) {
+
+  .arrow {
+    display: none;
+  }
+.section-heading__whatwedo h1 {
+  margin:0 !important;
+}
+
+.section-heading__whatwedo p {
+  font-weight: normal;
+  margin: 3rem 0!important;
+}
+
+.section-heading__whatwebelieve h3 {
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__whatwebelieve p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 0 !important;
+}
+
+.section-heading__ourwork h3 {
+  margin-top: 2rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourwork h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourwork h2 {
+  font-size: 3rem;
+  color: #666666;
+  margin: 3rem 0!important;
+}
+
+.section-heading__ourservice h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourservice h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourservice p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__howwework h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__howwework h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__howwework p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__ourcapabilities h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourcapabilities h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourcapabilities p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0!important;
+}
+
+}
+
+/** Main Responsive text */
+
+@media screen and (max-width: 954px) {
+
+.main__whatwedo {
+  margin: 0!important;
+}
+}
+
+@media screen and (max-width: 850px) {
+
+.section-heading__whatwedo h1 {
+  font-size: 2rem;
+  margin:0 !important;
+}
+
+.section-heading__whatwedo p {
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin: 3rem 0!important;
+}
+
+.section-heading__whatwebelieve h3 {
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__whatwebelieve p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 0 !important;
+}
+
+.section-heading__ourwork h3 {
+  margin-top: 2rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourwork h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourwork h2 {
+  font-size: 3rem;
+  color: #666666;
+  margin: 3rem 0!important;
+}
+
+.section-heading__ourservice h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourservice h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourservice p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__howwework h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__howwework h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__howwework p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__ourcapabilities h1 {
+  font-size: 3rem;
+  color: #666666;
+}
+
+.section-heading__ourcapabilities h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourcapabilities p {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0!important;
+}
+  }
+
+  @media screen and (max-width: 600px) {
+
+.section-heading__whatwedo h1 {
+  font-size: 1.6rem;
+  margin:0 !important;
+}
+
+.section-heading__whatwedo p {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 3rem 0!important;
+}
+
+.section-heading__whatwebelieve h3 {
+  margin-top: 2rem;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__whatwebelieve p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 0 !important;
+}
+
+.section-heading__ourwork h3 {
+  margin-top: 2rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourwork h1 {
+  font-size: 1.6rem;
+  color: #666666;
+}
+
+.section-heading__ourwork h2 {
+  font-size: 1.6rem;
+  color: #666666;
+  margin: 3rem 0!important;
+}
+
+.section-heading__ourservice h1 {
+  font-size: 1.6rem;
+  color: #666666;
+}
+
+.section-heading__ourservice h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourservice p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__howwework h1 {
+  font-size: 1.6rem;
+  color: #666666;
+}
+
+.section-heading__howwework h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__howwework p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0 !important;
+}
+
+.section-heading__ourcapabilities h1 {
+  font-size: 1.6rem;
+  color: #666666;
+}
+
+.section-heading__ourcapabilities h3 {
+  margin-top: 6rem;
+  color: #881C67;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-heading__ourcapabilities p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #414042;
+  margin: 3rem 0!important;
+}
+  }
+
+  /** END */
+
 @media screen and (max-width: 600px) {
   .navbar__logo {
     width: 100px;
@@ -74,4 +394,7 @@
   .arrow {
     display: none;
   }
+
+
 }
+
