@@ -444,6 +444,12 @@ input[name="mSlideRadio"] {
 	display: flex;
 }
 
+.footer .footer-content .footer-section {
+	flex: 1;
+	padding:25px;
+}
+
+
 .footer .footer-content .footer__logo img {
 	margin:30px;
 	padding-left: 50px;
@@ -503,10 +509,6 @@ input[name="mSlideRadio"] {
 }
 
 
-.footer .footer-content .footer-section {
-	flex: 1;
-	padding:25px;
-}
 
 .footer .footer-bottom {
 	background: ;
