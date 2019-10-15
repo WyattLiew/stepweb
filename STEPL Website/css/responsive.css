@@ -52,9 +52,7 @@
 /** main page **/
 @media screen and (max-width: 1400px) {
 
-  .arrow {
-    display: none;
-  }
+  
 .section-heading__whatwedo h1 {
   margin:0 !important;
 }
@@ -388,18 +386,13 @@
     height: 400px;
 }
   .main-slider__navigation {
-    left: 35%;
-    top: 45%;
+    left: 50%;
+    margin-bottom: 10px !important;
+    bottom: 50%;
+    transform: translate(-50%,0);
   }
   .arrow {
     display: none;
   }
 
-}
-
-@media screen and (min-width: 768px) { 
- .main-slider__navigation {
-    left: 45%;
-    top: 88%;
-  }
 }

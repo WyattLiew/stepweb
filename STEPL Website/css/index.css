@@ -60,10 +60,16 @@ nav {
 
 .main-slider__navigation {
 	position: absolute;
-	top: 88%;
+	/*top: 88%;
 	left: 47%;
-	/*transform: translateY(-50%);*/
+	transform: translateY(-50%);*/
 	display: flex;
+	
+	margin-top: 55px !important;
+	margin-bottom: 55px !important;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0%);
 }
 
 .main-slider__bar {
@@ -357,8 +363,8 @@ input[name="mSlideRadio"] {
 .section-heading__ourservice img {
 	display: flex;
 	margin: 3rem 0;
-	width: 20rem;
-	height: 30rem;
+	width: 10rem;
+	height: 15rem;
 	border-radius: 10%;
 	border: 2px solid black;
 }
