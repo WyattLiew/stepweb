@@ -381,14 +381,14 @@
     font-size: 20px;
     text-align: center;
     padding:0;
-  }
+  }/*
   .main-slider__slidershow {
     height: 400px;
-}
+}*/
   .main-slider__navigation {
     left: 50%;
     margin-bottom: 10px !important;
-    bottom: 50%;
+    bottom: 50% !important;
     transform: translate(-50%,0);
   }
   .arrow {
@@ -396,3 +396,4 @@
   }
 
 }
+
