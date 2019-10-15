@@ -138,9 +138,9 @@ input[name="mSlideRadio"] {
     opacity: 0;
     position: absolute;
         left: 50%;
-        top: 97%;
+        bottom: 3%;
     transform-origin: 50% 50%;
-    transform: translate3d(-50%, -50%, 0);
+    transform: translate(-50%, 0);
 }
 
 
@@ -157,21 +157,19 @@ input[name="mSlideRadio"] {
     content: '';
     display: block;
     height: 3px; 
-    position: absolute;
-        top: 0;
-        left: 0;
+    
     width: 30px;
 }
 
 
 
 .arrow:before {
-    transform: rotate(45deg) translateX(-23%);
+    transform: rotate(45deg) translateX(-13%);
     transform-origin: top left;
 }
 
 .arrow:after {
-    transform: rotate(-45deg) translateX(23%);
+    transform: rotate(-45deg) translateX(26%);
     transform-origin: top right;
 }
 
@@ -180,7 +178,7 @@ input[name="mSlideRadio"] {
 @keyframes arrow-movement {
     0% { 
         opacity: 0;
-        top: 95%;
+        bottom: 5%;
     }
     70% {
         opacity: 1;
