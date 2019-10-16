@@ -402,6 +402,15 @@
     display: none;
   }
 
+
+  .section-heading__whatwebelieve img {
+      width: 90%;
+    }
+
+    .section-heading__howwework img {
+      width: 90% !important;
+    }
+
 }
 
 
@@ -423,11 +432,15 @@
       padding-bottom: 90px;
     }
 
-
-
-
-    .section-heading__whatwebelieve img {
-      
-      width: 90%;
+    .footer__line {
+      display: none;
     }
+
+    .section-heading__howwework .main-howwework__img1 {
+      margin: 3rem 0;
+      width: 80%;
+    }
+
+
+
   }
