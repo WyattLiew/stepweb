@@ -317,6 +317,10 @@ input[name="mSlideRadio"] {
 	margin-top: 3rem;
 }
 
+.main-ourwork__img2 {
+	width: 90%;
+}
+
 /** Main our service **/
 
 .section-heading__ourservice {

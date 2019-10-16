@@ -1,0 +1,15 @@
+.navbar__ul li a {
+	display: block;
+	color: #C7C7C7;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar__ul li a:hover{
+	color: black;
+}
+
+.nav__selected {
+	color: black !important;
+}
