@@ -13,3 +13,4 @@ function mainNarbarFunction() {
     menu.classList.add("fa-bars");
 
   }
+}
