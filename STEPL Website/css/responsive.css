@@ -150,6 +150,22 @@
   margin: 3rem 0!important;
 }
 
+.section-heading__workwithus p {
+  font-size: 1.4rem;
+  margin: 3rem 5rem;
+}
+
+.workwithus__topform,
+.workwithus__middleform  {
+  min-height: 122px;
+  margin: 0px 25px;
+}
+
+.section-heading__getintouch p {
+    font-size: 1.4rem;
+    margin: 3rem 3rem;
+}
+
 }
 
 /** Main Responsive text */
@@ -261,7 +277,17 @@
   color: #414042;
   margin: 3rem 0!important;
 }
-  }
+
+.section-heading__getintouch h1 {
+    font-size: 2rem;
+    color: #666666;
+}
+.section-heading__getintouch h3 {
+    font-size: 28px;
+}
+
+
+}
 
   @media only screen and (max-width: 600px) {
 
@@ -370,7 +396,36 @@
   color: #414042;
   margin: 3rem 0!important;
 }
-  }
+
+.section-heading__getintouch h1 {
+    font-size: 1.4rem;
+}
+.section-heading__getintouch p {
+    font-size: 1rem;
+    margin: 1rem;
+}
+.getintouch-button {
+    width: 168px;
+    height: 58px;
+}
+.getintouch-button a {
+    font-size: 1rem;
+}
+.getintouch-button a span {
+    font-size: 0.7rem;
+}
+.section-heading__getintouch h3 {
+    font-size: 1.2rem;
+}
+.section-heading__workwithus h3 {
+    font-size: 1.2rem;
+}
+.workwithus__topform, .workwithus__middleform {
+    min-height: 122px;
+     margin: 0; 
+}
+
+}
 
   /** END */
 
@@ -454,7 +509,25 @@
       margin: 3rem 0;
       width: 80%;
     }
+  }
 
+  @media only screen and (max-width: 917px) {
+    .section-heading__workwithus p {
+    font-size: 1rem;
+    margin: 3rem 0rem;
+    }
 
-
+    input[value="Sent your message!"] {
+    color: #fff;
+    font-size: 13px;
+    }
+    .workwithus-button {
+      width: 160px;
+      height: 45px;
+    }
+    .workwithus__topform .workwithus__innerform {
+     width: 100%; 
+     float: none; 
+     margin-right: 0; 
+    }
   }

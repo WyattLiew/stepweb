@@ -441,6 +441,180 @@ input[name="mSlideRadio"] {
 	height: 50%;
 }
 
+/** Main get in touch **/
+
+.section-heading__getintouch {
+	text-align: center;
+	margin: 10rem 0;
+}
+
+.section-heading__getintouch h1 {
+	font-size: 3rem;
+	color: #666666;
+}
+
+.section-heading__getintouch h3 {
+	margin-top: 6rem;
+	color: #881C67;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.section-heading__getintouch p {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #666666;
+	margin: 3rem 19rem;
+}
+
+.section-heading__getintouch img {
+	margin: 3rem 0;
+	width: 80%;
+	height: 50%;
+}
+
+.getintouch-button {
+	width: 252px;
+	height: 66px;
+	background: #751C5B;
+	border-radius: 7px;
+	border-style: none;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+.getintouch-button a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+.getintouch-button a span {
+	text-decoration: none;
+	font-size: 0.9rem;
+	color: #fff;
+}
+
+/** Main work with us **/
+
+.workwithus__container{
+	width: 65%;
+	max-width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 67px;
+}
+
+.section-heading__workwithus {
+	
+	margin: 10rem 0;
+}
+
+
+.section-heading__workwithus h3 {
+	margin-top: 6rem;
+	color: #881C67;
+	font-size: 28px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.section-heading__workwithus p {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #666666;
+	margin: 3rem 15rem;
+}
+
+.workwithus-button {
+	width: 252px;
+	height: 66px;
+	background: #751C5B;
+	border-radius: 7px;
+	border-style: none;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	cursor: pointer;
+}
+
+input[value="Sent your message!"] {
+	color: #fff;
+}
+
+.section-heading__workwithus form .workwithus-input__text {
+	background: #F9F9F9;
+	color: #1A1A1A;
+	margin-bottom: 10px;
+	line-height: 1.5rem;
+	padding:.7rem 1.4rem;
+	border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.section-heading__workwithus form .workwithus-input__textarea {
+	background: #F9F9F9;
+	color: #1A1A1A;
+	margin-bottom: 10px;
+	line-height: 1.5rem;
+	padding:2.7rem 1.4rem;
+	border: 1px solid #D3D3D3;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.workwithus__label, 
+.workwithus__label_textarea{
+	margin-bottom: 5px;
+}
+.workwithus__label label,
+.workwithus__label_textarea label{
+	font-weight: bold;
+}
+
+.workwithus__label label span{
+	color: #B41918;
+	font-size: 1em;
+}
+
+.workwithus__label_textarea label span{
+	color: #808080;
+	font-size: 1em;
+}
+
+.workwithus__form {
+	width: 100%;
+	margin: 25px 0;
+}
+
+.workwithus__topform,
+.workwithus__middleform  {
+	width: 100%;
+	min-height: 65px;
+	margin: 10px 25px;
+}
+
+
+.workwithus__topform .workwithus__innerform {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+.workwithus__topform .workwithus__innerform:last-child {
+	margin-right: 0;
+}
+
+.workwithus__bottomform {
+	text-align: center;
+}
+
+
 /** Footer CSS Start here **/
 .footer {
 	background: #751C5B;
