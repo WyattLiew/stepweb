@@ -525,7 +525,7 @@ input[name="mSlideRadio"] {
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: #666666;
-	margin: 3rem 15rem;
+	margin: 8rem 15rem;
 }
 
 .workwithus-button {
@@ -538,6 +538,7 @@ input[name="mSlideRadio"] {
 	text-align: center;
 	margin: 10px;
 	cursor: pointer;
+	margin-bottom: 6%;
 }
 
 input[value="Sent your message!"] {
@@ -566,6 +567,7 @@ input[value="Sent your message!"] {
     border-radius: 4px;
     box-sizing: border-box;
     width: 100%;
+    resize: none;
 }
 
 .workwithus__label, 
@@ -613,6 +615,109 @@ input[value="Sent your message!"] {
 .workwithus__bottomform {
 	text-align: center;
 }
+
+
+/** Main fight with us **/
+
+.fightwithus__container{
+	width: 60%;
+	max-width: 120rem;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 67px;
+}
+
+.section-heading__fightwithus {
+	text-align: center;
+	margin: 10rem 0;
+}
+
+.section-heading__fightwithus h2 {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.fightwithus__toplist span{
+	color: #808080;
+	font-size: 16px;
+}
+
+.section-heading__fightwithus h3 {
+	margin-top: 6rem;
+	color: #881C67;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.section-heading__fightwithus p {
+	font-size: 1.4rem;
+	font-weight: 500;
+	color: #666666;
+	margin: 3rem 5rem;
+	margin-top: 10rem;
+}
+
+.fightwithus__toplist {
+	width: 100%;
+	min-height: 160px;
+	margin: 10px 25px;
+}
+
+.fightwithus__toplist .fightwithus__innerlist {
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+}
+
+.fightwithus__toplist .fightwithus__innerlist:last-child {
+	margin-right: 0;
+}
+
+.fightwithus__innerlist button{
+	margin:36px;
+	background: #751C5B;
+	border-radius: 7px;
+	border-style: none;
+	padding: 10px;
+}
+
+.fightwithus__innerlist button a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: #fff;;
+}
+
+.fightwithus-button {
+	width: 252px;
+	height: 66px;
+	background: #751C5B;
+	border-radius: 7px;
+	border-style: none;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	margin-bottom: 10%;
+}
+
+.fightwithus-button a {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: #fff;
+}
+
+.fightwithus-button a span {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: #fff;
+}
+
+
+
+
+
+
+
 
 
 /** Footer CSS Start here **/
