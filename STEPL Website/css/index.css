@@ -58,6 +58,10 @@ nav {
 	overflow: hidden !important;
 }
 
+.main-slider__middle {
+	position: relative;
+}
+
 .main-slider__navigation {
 	position: absolute;
 	/*top: 88%;
@@ -86,7 +90,9 @@ nav {
 	margin: 6px;
 	cursor: pointer;
 	transition: 0.4s;
-	display: inline-flex;
+	position: relative;
+	display: inline-block;
+	top: -5px;
 }
 
 .main-slider__bar:hover {
