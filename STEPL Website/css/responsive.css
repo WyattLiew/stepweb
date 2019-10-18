@@ -462,12 +462,12 @@
   .main-slider__slidershow {
     height: 400px;
 }
-  .main-slider__navigation {
+  /*.main-slider__navigation {
     left: 50%;
     margin-bottom: 10px !important;
     bottom: 50% !important;
     transform: translate(-50%,0);
-  }
+  }*/
   .arrow {
     display: none;
   }
