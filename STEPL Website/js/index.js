@@ -1,27 +1,74 @@
 /** main-slider__bar selected dots */
-var slideIndex = 1;
-showDivs(slideIndex);
+var slideIndex,slides,dots;
 
-function currentSlide(n) {
-  showDivs(slideIndex = n);
+function initMainSlides(){
+    slideIndex = 0;
+    slides = document.getElementsByClassName("main-slider__slide");
+    slides[slideIndex].style.opacity=1;
+
+    //add dots
+    if(slides.length>1){
+      
+    dots=[];
+    var dotsContainer=document.getElementById("main-slider__navigation"),i;
+    for (i = 0; i < slides.length; i++) {
+        var dot=document.createElement("span");
+        dot.classList.add("main-slider__bar");
+        dotsContainer.append(dot);
+        dot.setAttribute("onclick","showDivs("+i+")");
+        dots.push(dot);
+    }
+    }
+    dots[slideIndex].classList.add("main-slider__selected");
+    
+}
+
+initMainSlides();
+
+function plusSlides(n) {
+    showDivs(slideIndex+n);
 }
 
 function showDivs(n) {
   var i;
-  var x = document.getElementsByClassName("main-slider__slide");
-  var dots = document.getElementsByClassName("main-slider__bar"); 
-  // if (n > x.length) {slideIndex = 1}
-  // if (n < 1) {slideIndex = x.length}
-  // for (i = 0; i < x.length; i++) {
-  //   x[i].style.display = "none";  
-  // }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" main-slider__selected", "");
-  }
-  // x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " main-slider__selected";
-}
+  var current,next;
+  var moveSlideAnimClass={
+      forCurrent:"",
+      forNext:""
+  };
+  
+    if(n>slideIndex) {
+        if(n >= slides.length){n=0;}
+        moveSlideAnimClass.forCurrent="moveLeftCurrentSlide";
+        moveSlideAnimClass.forNext="moveLeftNextSlide";
+    }else if(n<slideIndex){
+        if(n<0){n=slides.length-1;}
+        moveSlideAnimClass.forCurrent="moveRightCurrentSlide";
+        moveSlideAnimClass.forNext="moveRightPrevSlide";
+    }
 
+    if(n!=slideIndex){ 
+        next = slides[n];
+        current=slides[slideIndex];
+        for (i = 0; i < slides.length; i++) {
+            slides[i].className = "main-slider__slide";
+            slides[i].style.opacity=0;
+            dots[i].classList.remove("main-slider__selected");
+        }
+        current.classList.add(moveSlideAnimClass.forCurrent);
+        next.classList.add(moveSlideAnimClass.forNext);
+        dots[n].classList.add("main-slider__selected");
+        slideIndex=n;
+    }
+  
+}
+var timer=null;
+function setTimer(){
+    timer=setInterval(function () {
+        plusSlides(1) ;
+    },10000);
+}
+setTimer();
 
 /** Hambyrger menu function */
 function mainNarbarFunction() {

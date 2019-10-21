@@ -22,7 +22,7 @@
 	 	<li><a href="ourworks.html">Our Works</a></li>
 	 	<li><a href="ourservices.html">Our Services</a></li>
 	 	<li><a href="ourcapabilities.html">Capabilities</a></li>
-	 	<li><a href="#about">Team</a></li>
+	 	<li><a href="ourteam.html">Team</a></li>
 	 	<li><a href="getintouch.html">Get In Touch</a></li>
 	 	<li><a href="javascript:void(0);" class="main-navbar__icon" onclick="mainNarbarFunction()">
     <i class="fa fa-bars" id="menu"></i></a></li>
@@ -32,16 +32,11 @@
 
 <div class="main-slider__middle main-slider__slidershow">
 	<div class="main-slider__slides main-slider__images">
-		<input type="radio" name="mSlideRadio" id="r1" checked>
-		<input type="radio" name="mSlideRadio" id="r2">
-		<input type="radio" name="mSlideRadio" id="r3">
-		<input type="radio" name="mSlideRadio" id="r4">
-		<input type="radio" name="mSlideRadio" id="r5">
 
-		<div class="main-slider__slide s1">
+		<div class="main-slider__slide ">
 			<img src="assets/slider/AssetDrone.jpg" alt="#" />
 		</div>
-		<div class="main-slider__slide">
+		<!-- <div class="main-slider__slide">
 			<img src="assets/slider/bg1.jpg" alt="#" />
 		</div>
 		<div class="main-slider__slide">
@@ -52,15 +47,9 @@
 		</div>
 		<div class="main-slider__slide">
 			<img src="assets/slider/bg4.jpg" alt="#" />
-		</div>
+		</div> -->
 	</div>
-	<div class="main-slider__navigation">
-	<label for="r1" class="main-slider__bar"  onclick="currentSlide(1)"></label>
-	<label for="r2" class="main-slider__bar"  onclick="currentSlide(2)"></label>
-	<label for="r3" class="main-slider__bar"  onclick="currentSlide(3)"></label>
-	<label for="r4" class="main-slider__bar"  onclick="currentSlide(4)"></label>
-	<label for="r5" class="main-slider__bar"  onclick="currentSlide(5)"></label>
-</div>
+	<div class="main-slider__navigation" id="main-slider__navigation"></div>
 	
 <div class="arrow arrow-first"></div>
 <div class="arrow arrow-second"></div>
