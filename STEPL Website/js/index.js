@@ -18,8 +18,9 @@ function initMainSlides(){
         dot.setAttribute("onclick","showDivs("+i+")");
         dots.push(dot);
     }
-    }
+    /** Take notes this**/
     dots[slideIndex].classList.add("main-slider__selected");
+    }
     
 }
 

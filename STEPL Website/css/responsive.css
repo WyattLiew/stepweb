@@ -535,6 +535,17 @@
   width: 100%;
 }
 
+#main-whatwedo__background { 
+  height: 680px;
+}
+
+.main__whatwedo {
+  padding: 1px;
+}
+
+.main__whatwedo .container {
+  top: 13px;
+}
 
 }
 
