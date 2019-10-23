@@ -522,6 +522,7 @@ nav {
 	padding: 2rem;
 }
 
+
 .section-heading__ourteam .team img {
 	display: flex;
 	margin: 3rem 0;
@@ -529,6 +530,7 @@ nav {
 	height: 15rem;
 	border-radius: 10%;
 	border: 2px solid black;
+	padding: 30px;
 }
 
 .section-heading__ourteam img {
