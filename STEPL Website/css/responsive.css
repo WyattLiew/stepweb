@@ -327,6 +327,7 @@
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 500;
+  padding-top: 0;
 }
 
 .section-heading__whatwedo p {
@@ -488,8 +489,8 @@
 
 @media only screen and (max-width: 600px) {
   .navbar__logo {
-    width: 100px;
-    height: 30px;
+    width: 90px;
+    height: 35px;
   }
   .navbar__ul li a {
     padding:0;
