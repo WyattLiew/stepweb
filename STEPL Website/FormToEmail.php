@@ -162,7 +162,7 @@ Enter the email address below to send the contents of the form to.  You can ente
 
 
 
-$my_email = "weiloon@steppl.com.sg";
+$my_email = "steppl@steppl.com.sg";
 
 
 
