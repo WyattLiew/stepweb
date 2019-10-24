@@ -390,7 +390,7 @@ mail($my_email,$subject,$message,$headers);
 
 <p><a href="<?php print $continue; ?>">Click here to continue</a></p>
 
-<p><b>FormToEmail</b> by <a href="http://FormToEmail.com">FormToEmail.com</a></p>
+<!-- <p><b>FormToEmail</b> by <a href="http://FormToEmail.com">FormToEmail.com</a></p> -->
 
 </center>
 
