@@ -396,19 +396,21 @@ nav {
 	border: 2px solid black;
 }
 
-.section-heading__ourservice img:hover {
-	width: 15rem;
-	height: 25rem;
+.section-heading__ourservice img:hover,
+.services__imgbox:hover {
+	opacity: 0.5;
 }
+
 
 .services__content {
 	position: relative;
-	bottom: 88px;
+	bottom: 130px;
 	text-align: center;
 }
 
 .services__content h2 {
-	font-size: 16px;
+	font-size: 21px;
+	width: 99%;
 }
 
 
