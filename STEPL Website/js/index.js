@@ -88,3 +88,17 @@ function mainNarbarFunction() {
   }
 }
 
+$(document).scroll(function () {
+    var y = $(window).scrollTop();
+    if (y > 1200) {
+        $('.animation-text').fadeIn("slow");
+    } else {
+        $('.animation-text').fadeOut("slow");
+    }
+    if (y > 300) {
+        $('.animation-text__whatwebelieve').fadeIn("slow");
+    } else {
+        $('.animation-text__whatwebelieve').fadeOut("slow");
+    }
+
+});

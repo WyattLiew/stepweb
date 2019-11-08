@@ -11,6 +11,7 @@
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
 <link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/pages.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 </head>
@@ -19,10 +20,9 @@
 	<nav>
 	<a href="index.html"><img class="navbar__logo" alt="Step Design Company" src="assets/logo/logo.png"></a>
 	<ul class="navbar__ul" id="myTopnav">
+		<li><a href="index.html"  class="nav__selected">Home</a></li>
 	 	<li><a href="ourworks.html">Our Works</a></li>
 	 	<li><a href="ourservices.html">Our Services</a></li>
-	 	<li><a href="ourcapabilities.html">Capabilities</a></li>
-	 	<li><a href="ourteam.html">Team</a></li>
 	 	<li><a href="getintouch.html">Get In Touch</a></li>
 	 	<li><a href="javascript:void(0);" class="main-navbar__icon" onclick="mainNarbarFunction()">
     <i class="fa fa-bars" id="menu"></i></a></li>
@@ -30,149 +30,76 @@
 </nav>
 </div>
 
-<div class="main-slider__middle main-slider__slidershow">
-	<div class="main-slider__slides main-slider__images">
-
-		<div class="main-slider__slide ">
-			<img src="assets/slider/Drone.jpg" alt="#" />
-		</div>
-		<!-- <div class="main-slider__slide">
-			<img src="assets/slider/bg1.jpg" alt="#" />
-		</div>
-		<div class="main-slider__slide">
-			<img src="assets/slider/bg2.jpg" alt="#" />
-		</div>
-		<div class="main-slider__slide">
-			<img src="assets/slider/bg3.jpg" alt="#" />
-		</div>
-		<div class="main-slider__slide">
-			<img src="assets/slider/bg4.jpg" alt="#" />
-		</div> -->
-	</div>
-	<div class="main-slider__navigation" id="main-slider__navigation"></div>
-	
-<div class="arrow arrow-first"></div>
-<div class="arrow arrow-second"></div>
-</div>
-
 <a name="whatwedo"></a>
 <div id="main-whatwedo__background">
 <section class="main__whatwedo">
 <div class="container">
 	<div class="section-heading__whatwedo">
-		<h3>What We Do</h3>
-		<h1>Designing future innovations that transforms.</h1>
-		<p><b>STEPL</b> designs phygital, physical & digital, experiences to transform business at scale. We believe in the many possibilities of providing exceptional user experiences with the empowerment of technology.
-		</p>
-		<!-- <img src="assets/ai/HomePage.jpg" alt="#" /> -->
+		<h1>TECHNOLOGY</h1>
+		<h3>Design. Innovation. Experience Design.</h3>
 	</div>
+	<button onclick="location.href='getintouch.html'">Get In Touch</button>
 </div>
 </section>
 </div>
 
-<a name="whatwebelieve"></a>
+<section class="main__whoweare">
+<div class="container">
+	<div class="section-heading__whoweare">
+		<h3>Who we are</h3>
+		<h1>
+			<span >Design</span> phygital<br>experiences <span>through</span> creative technologies
+		</h1>
+	</div>
+</div>
+</section>
+
+<div class="main-slider__middle main-slider__slidershow">
+	<div class="main-slider__slides main-slider__images">
+
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>USER EXPERIENCE DESIGN</h1>
+		</div>
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>DESIGN RESEARCH AND ETHNOGRAPHY</h1>
+		</div>
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>PRODUCT SOURCING</h1>
+		</div>
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>FUTURISTIC DESIGN</h1>
+		</div>
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>INTEGRATING SYSTEMS & SOFTWARES</h1>
+		</div>
+		<div class="main-slider__slide ">
+			<h3>Capabilities</h3>
+			<h1>SMART CITY DESIGN</h1>
+		</div>
+		
+	</div>
+	<div class="main-slider__navigation" id="main-slider__navigation"></div>
+</div>
+
 <section class="main__whatwebelieve">
 <div class="container">
 	<div class="section-heading__whatwebelieve">
+		<div class="whatwebelieve__image">
+			<img alt="concept" src="assets/ai/Designtechnology.jpg" />
+		</div>
 		<h3>What We Believe</h3>
-		<img alt="concept" src="assets/ai/concept.jpg" />
-		<p>
-		By harnessing the power of future technology, <b>STEPL</b> hopes to shape the future user experiences with the balance of both technology and design. Furthermore, we believe that exceptional user experiences can be created with or without any use of technology.</p>
+		<h1>
+			Shaping experiences with the balance of <span class="animation-text element-to-hide">design</span> and <span class="animation-text element-to-hide">technology</span>
+		</h1>
 	</div>
 </div>
 </section>
 
-
-<!-- <section class="main__ourwork">
-<div class="container">
-	<div class="section-heading__ourwork">
-		<h3>Our Works</h3>
-		<h1>Design of User Experiences</h1>
-		<img alt="building" src="assets/ai/building.jpg" />
-		<h2>Implementation of Hardwares and Softwares</h2>
-		<img class="main-ourwork__img2" src="assets/images/brands.jpg" alt="projects" />
-	</div>
-</div>
-</section> -->
-
-<section class="main__ourservice">
-<div class="container">
-	<div class="section-heading__ourservice">
-		<h3>Our Services</h3>
-		<h1>Let's talk!</h1>
-		<p>
-			We believe in working very closely to meet the needs of each client, and
-			work together to produce exceptional services and experiences to market.
-			Together we provide many creative possibilities that are fresh and impactful.
-		</p>
-		<h3>What We Provide</h3>
-		<div class="main__services">
-			<div class="services">
-				<div class="services__imgbox">
-				<img src="assets/ai/BusinessInnovationBorder.jpg" alt="Business Innovation Border" />
-			</div>
-			<div class="services__content">
-				<h2>Business Innovation</h2></div>
-			</div>
-		
-			<div class="services">
-				<div class="services__imgbox">
-				<img src="assets/ai/ProductServiceDesignBorder.jpg" alt="Product Service Design Border" />
-			</div>
-				<div class="services__content">
-				<h2>Product & Service Design</h2></div>
-			</div>
-			<div class="services">
-				<div class="services__imgbox">
-				<img src="assets/ai/UserExperienceDesignBorder.jpg" alt="User Experience Design Border" />
-			</div>
-				<div class="services__content">
-				<h2>User Experience Design</h2></div>
-			</div>
-	</div>
-	</div>
-</div>
-</section>
-
-<a name="howwework"></a>
-<section class="main__howwework">
-<div class="container">
-	<div class="section-heading__howwework">
-		<h3>How We Work</h3>
-		<h1>From start to the very end.</h1>
-		<p>
-			From designing the users experiences to the implementation of hardwares
-			and softwares, we are in full control of the design outcomes that we
-			(us) aim to achieve.
-		</p>
-		<!-- <img class="main-howwework__img1" src="assets/ai/StarttoEnd
-		.jpg" alt="how we work" /> -->
-		<img class="main-howwework__img2" src="assets/ai/DesignProcess.jpg" alt="process circle"  />
-	</div>
-</div>
-</section>
-
-<section class="main__ourcapabilities">
-<div class="container">
-	<div class="section-heading__ourcapabilities">
-		<h3>Our Capabilities</h3>
-		<h1>We got you covered!</h1>
-		<p>
-			Our multi-displinary team aims to propose ideal solutions covering both the
-			front and back end, from designing ideas to executing concepts into realities.
-		</p>
-		<img src="assets/ai/OurCapabilities.jpg" alt="capabilities" />
-		<h3>Brands We Work For</h3>
-		<p>
-			Through closed collaboration, we produce creative solutions
-			that exhibit the company's brand, value and practices.
-		</p>
-		<img src="assets/ai/brands.jpg" alt="brands"  />
-		<h3>Our Global Impact</h3>
-		<img src="assets/ai/map.jpg" alt="map"  />
-	</div>
-</div>
-</section>
 
 
 <div class="footer">
@@ -182,17 +109,8 @@
 		</div>
 		<div class="footer-section footer__step">
 			<h2>About Us</h2>
-				<a href="#whatwedo">What We Do</a>
-				<a href="#whatwebelieve">Our Philosophy</a>
-				<a href="ourteam.html">Our Team</a>
 				<a href="ourworks.html">Our Works</a>
-			
-		</div>
-		<div class="footer-section footer__services">
-			<h2>Services</h2>
-				<a href="ourservices.html">Services</a>
-				<a href="#howwework">How We Work</a>
-				<a href="ourcapabilities.html">Our Capabilities</a>
+				<a href="ourservices.html">Our Services</a>
 		</div>
 		<div class="footer-section footer__contact">
 			<h2>Contact</h2>
@@ -200,16 +118,10 @@
 				<span><i class="fa fa-phone"></i> &nbsp; +65 6351 1101
 				</span>
 				<span><i class="fa fa-envelope"></i> &nbsp; steppl@steppl.com.sg</span>
-				<a href="https://drive.google.com/file/d/1x8i6M6kNsytDR-qh8TLTDxqoKeyjnsl7/view?usp=sharing">Download Company Deck</a>
-				<a href="mailto:weiloon@steppl.com.sg">Join Us Onboard</a>
-			</div>
-			<div class="footer__socials">
-				<a href="https://www.linkedin.com/company/solution-technology-enterprise-ptd-ltd/"><i class="fab fa-linkedin"></i></a>
-				<!-- <a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><i class="fab fa-google"></i></a>
-				<a href="#"><i class="fab fa-facebook"></i></a> -->
+				<a href="https://www.linkedin.com/company/solution-technology-enterprise-ptd-ltd/"><i class="fab fa-linkedin">&nbsp; Join Us</i></a>
 			</div>
 		</div>
+		
 	</div>
 	<div class="footer-bottom">
 		<hr style="width: 50%" class="footer__line">
