@@ -241,7 +241,7 @@ nav {
 
 
 #main-whatwedo__background {
-	background-image: url(../assets/ai/Homepage_long.jpg);  
+	background-image: url(../assets/ai/Homepage_long.jpg);
   height: 796px;
  /* height: 846px;*/
   background-position: center;
@@ -508,7 +508,7 @@ nav {
 
 .largebox__container {
 	display: grid;
-	padding: 0 100px 0 10px;
+	padding: 0 100px 150px 10px;
 	grid-template-areas: 
 	'largebox largebox largebox largebox largebox1_1 largebox1_1 largebox1_2 largebox1_2 largebox1_3 largebox1_3'
 	'largebox largebox largebox largebox largebox2_1 largebox2_1 largebox2_2 largebox2_2 largebox2_3 largebox2_3'
@@ -543,20 +543,25 @@ nav {
 
 .largebox__container > div {
 	height: 200px;
+	padding-left: 10px;
+	position: relative;
+	top:10;
 }
 
 #largebox1_1{
-  background-image: url(../assets/ai/Homepage_long.jpg);  
+  background-image: url(../assets/images/photos/Snowberry.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  cursor: pointer;
 }
 
-#largebox h1{
+#largebox h3{
   font-size: 4em;
-  text-align: left;
+  text-align: center;
   color: #43d1d0;
+  margin-top: 100px;
 }
 
 #largebox1_2{
@@ -570,7 +575,7 @@ nav {
 	background: #43d1d0;
 }
 #largebox2_2{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/SKIITFWA.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -581,17 +586,18 @@ nav {
 }
 
 #largebox3_1{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/JoMalone.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-left: 94px;
 }
 #largebox3_2{
 	background: #fff;
 }
 #largebox3_3{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/Mac.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -609,7 +615,7 @@ nav {
 	background: #43d1d0;
 }
 #largebox4_2{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/SKIIHPP.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -620,7 +626,7 @@ nav {
 }
 
 #largebox4_4{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/Gucci.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -630,7 +636,7 @@ nav {
 	background: #fff;
 }
 #largebox5_1{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/BVION.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -640,7 +646,7 @@ nav {
 	background: #fff;
 }
 #largebox5_3{
-	 background-image: url(../assets/ai/Homepage_long.jpg);  
+	 background-image: url(../assets/images/photos/SKIIThailand.jpeg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -702,6 +708,75 @@ nav {
 	background: red;
 }
 
+/** main brand we work with **/
+
+.main__brandweworkwith .container {
+    margin: 0 auto;
+    background: #141414;
+}
+
+.section-heading__brandweworkwith {
+	text-align: center;
+}
+
+.section-heading__brandweworkwith h3 {
+	color: #fff;
+	font-size: 1.75em;
+	 padding-top: 40px;
+	 margin:0;
+    padding-bottom: 10px;
+	font-weight: 100;
+	text-align: left;
+    padding-left: 150px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.section-heading__brandweworkwith img {
+	margin: 3rem 0;
+	width: 80%;
+	height: 50%;
+}
+
+/** main global impact**/
+
+.main__globalimpact .container {
+    margin: 0 auto;
+}
+
+.section-heading__globalimpact {
+	text-align: center;
+}
+
+.section-heading__globalimpact h1 {
+	margin: 0;
+	font-size: 5.5em;
+	font-family: "Roboto", sans-serif;
+	color: #43d1d0;
+	text-align: left;
+	font-weight: 500;
+	padding-left: 150px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+}
+
+.section-heading__globalimpact h3 {
+	color: #141414;
+	font-size: 1.75em;
+	padding-top: 40px;
+	margin:0;
+    padding-bottom: 10px;
+	font-weight: 100;
+	text-align: left;
+    padding-left: 150px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.section-heading__globalimpact img {
+	width: 80%;
+	padding-bottom: 15rem;
+}
 
 
 /** Main our service **/
@@ -834,7 +909,7 @@ nav {
 }
 
 .section-heading__howwework .main-howwework__img2 {
-	margin: 3rem 0;
+	margin: 8rem 0;
 	width: 80%;
 	height: 50%;
 }

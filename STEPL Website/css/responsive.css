@@ -284,8 +284,12 @@
 }
 
 .section-heading__ourwork h1 {
-  font-size: 2rem;
-  color: #666666;
+  font-size: 4.5em;
+  letter-spacing: 4px;
+}
+
+.main__ourwork .container {
+    padding-left: 60px;
 }
 
 .section-heading__ourwork h2 {
@@ -389,6 +393,31 @@
     width: 81%;
 }
 
+.section-heading__globalimpact h3 {
+    font-size: 1.55em;
+    padding-left: 60px;
+    letter-spacing: 8px;
+}
+
+.section-heading__globalimpact h1 {
+    font-size: 4.5em;
+    padding-left: 60px;
+}
+
+.section-heading__brandweworkwith h3 {
+    font-size: 1.55em;
+    padding-left: 60px;
+    letter-spacing: 4px;
+}
+
+.section-heading__brandweworkwith img {
+    width: 90%;
+}
+
+.largebox__container {
+  display: none;
+}
+
 
 }
 
@@ -460,9 +489,13 @@
   font-weight: 500;
 }
 
+.main__ourwork .container {
+    padding-left: 25px;
+}
+
 .section-heading__ourwork h1 {
-  font-size: 1.4rem;
-  color: #666666;
+  font-size: 2rem;
+  letter-spacing: 4px;
 }
 
 .section-heading__ourwork h2 {
@@ -605,11 +638,36 @@
 }
 
 
+
+.section-heading__globalimpact h1 {
+    font-size: 2rem;
+    padding-left: 25px;
+}
+
+.section-heading__globalimpact h3 {
+   
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.section-heading__brandweworkwith h3 {
+    font-size: 1em;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
 }
 
   /** END */
 
 @media only screen and (max-width: 600px) {
+
+  #main-whatwedo__background {
+  background-image: url(../assets/ai/Homepagesmall.jpg);
+}
 
   .footer .footer-content .footer__logo img {
     width: 35%;
@@ -653,7 +711,7 @@
 }
 
 .section-heading__ourservice {
-    margin: 6rem 0;
+    margin-bottom: 4rem;
 }
 
   .fightwithus__container{
@@ -669,6 +727,11 @@
      padding-left: 0; 
 }
 
+.section-heading__brandweworkwith img {
+    margin: 2rem 0;
+    width: 90%;
+    height: 50%;
+}
 
   .section-heading__whatwebelieve img {
       width: 70%;
@@ -710,6 +773,10 @@
 
 .section-heading__getintouch {
   margin:6rem 0 0;
+}
+
+.largebox__container {
+  display: none;
 }
 
 }
