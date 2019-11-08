@@ -115,7 +115,6 @@
 
 .section-heading__ourservice h1 {
   font-size: 3rem;
-  color: #666666;
 }
 
 .section-heading__ourservice h3 {
@@ -134,14 +133,12 @@
 
 .section-heading__howwework h1 {
   font-size: 3rem;
-  color: #666666;
 }
 
 .section-heading__howwework h3 {
   margin-top: 6rem;
-  color: #881C67;
   font-size: 28px;
-  font-weight: 500;
+
 }
 
 .section-heading__howwework p {
@@ -271,7 +268,7 @@
 }
 
 .main-slider__slide h1 {
-    margin: 50px 60px 0 60px;
+    margin: 80px 60px 0 60px;
     font-size: 3.5em;
 }
 
@@ -298,8 +295,9 @@
 }
 
 .section-heading__ourservice h1 {
-  font-size: 2rem;
-  color: #666666;
+  font-size: 4.5em;
+  padding-left: 60px;
+  letter-spacing: 4px;
 }
 
 .section-heading__ourservice h3 {
@@ -317,15 +315,16 @@
 }
 
 .section-heading__howwework h1 {
-  font-size: 2rem;
-  color: #666666;
+  font-size: 4.5em;
+    padding-left: 60px;
 }
 
 .section-heading__howwework h3 {
   margin-top: 6rem;
-  color: #881C67;
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 1.55em;
+    font-weight: 500;
+    padding-left: 60px;
+    letter-spacing: 8px;
 }
 
 .section-heading__howwework p {
@@ -427,6 +426,8 @@
 .section-heading__whoweare h3 {
     font-size: 1em;
     letter-spacing: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .section-heading__whoweare h1 {
@@ -471,8 +472,10 @@
 }
 
 .section-heading__ourservice h1 {
-  font-size: 1.4rem;
-  color: #666666;
+    font-size: 2rem;
+    padding-left: 0;
+    margin: 0 !important;
+    letter-spacing: 4px;
 }
 
 .section-heading__ourservice h3 {
@@ -490,15 +493,16 @@
 }
 
 .section-heading__howwework h1 {
-  font-size: 1.4rem;
-  color: #666666;
+  font-size: 2.25em;
+  padding-left: 25px;
+  padding-right: 10px;
 }
 
 .section-heading__howwework h3 {
-  margin-top: 6rem;
-  color: #881C67;
+  margin-top: 3rem;
   font-size: 1.2rem;
-  font-weight: 500;
+  padding-left: 25px;
+  letter-spacing: 4px;
 }
 
 .section-heading__howwework p {
@@ -642,6 +646,14 @@
 
 .main__whatwedo button {
     font-size: 14px;
+}
+
+.main__ourservice .container{
+  padding-left: 25px;
+}
+
+.section-heading__ourservice {
+    margin: 6rem 0;
 }
 
   .fightwithus__container{
