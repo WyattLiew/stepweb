@@ -232,9 +232,16 @@
 }
 
 .section-heading__whatwebelieve h3 {
-  margin-top: 2rem;
-  font-size: 28px;
-  font-weight: 500;
+      margin-top: 2rem;
+    font-size: 1.55em;
+     font-weight: 500; 
+    padding-left: 60px;
+    letter-spacing: 8px;
+}
+
+.section-heading__whatwebelieve h1 {
+    font-size: 4.5em;
+    padding-left: 60px;
 }
 
 .section-heading__whatwebelieve p {
@@ -242,6 +249,34 @@
   font-weight: 500;
   color: #414042;
   margin: 0 1rem!important;
+}
+
+.main__whoweare .container {
+    padding-left: 60px;
+}
+
+.section-heading__whoweare h3 {
+    font-size: 1.55em;
+    letter-spacing: 8px;
+}
+
+.section-heading__whoweare h1 {
+    font-size: 4.5em;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-slider__slide h3 {
+    font-size: 1.75em;
+    margin: 85px 0px 0 60px;
+}
+
+.main-slider__slide h1 {
+    margin: 50px 60px 0 60px;
+    font-size: 3.5em;
+}
+
+.main__whatwebelieve .container {
+     padding-left: 0px; 
 }
 
 .section-heading__ourwork h3 {
@@ -493,8 +528,8 @@
 }
 
 .section-heading__getintouch h1 {
-    font-size: 1.8rem;
-    padding-left: 60px;
+    font-size: 2rem;
+    padding-left: 25px;
 }
 .section-heading__getintouch p {
     font-size: 1rem;
@@ -511,15 +546,15 @@
     font-size: 0.7rem;
 }
 .section-heading__getintouch h3 {
-    font-size: 16px;
-    padding-left: 60px;
+    font-size: 1.2rem;
+    padding-left: 25px;
     padding-right: 50px;
     letter-spacing: 0;
 
 }
 .section-heading__workwithus h3 {
     font-size: 1.2rem;
-    padding-left: 60px;
+    padding-left: 25px;
 }
 .workwithus__topform, .workwithus__middleform {
     min-height: 122px;
