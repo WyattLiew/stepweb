@@ -434,7 +434,7 @@ nav {
 }
 
 
-/** Main our works **/
+/** Main our works  website**/
 
 .main__ourwork .container {
 	padding-left: 150px;
@@ -669,15 +669,21 @@ nav {
 }
 
 .box__container {
-	width: 1195px;
+	/*width: 1195px;
 	height: 200px;
 	display: flex;
-	padding: 0 10px 0 10px;
+	padding: 0 10px 0 10px;*/
+    width: 300px;
 }
 
 #box1_1{
-	flex: 1;
-	background: red;
+	height: 150px;
+	width: 150px;
+	background-image: url(../assets/images/photos/Gucci.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #box1_2{
 	flex: 1;
