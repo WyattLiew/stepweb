@@ -562,7 +562,6 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  cursor: pointer;
 }
 
 #largebox h3{
@@ -634,7 +633,7 @@ nav {
 }
 
 #largebox4_4{
-	 background-image: url(../assets/images/photos/Gucci.jpeg);  
+	 background-image: url(../assets/images/photos/Gucci.jpg);  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -669,57 +668,90 @@ nav {
 }
 
 .box__container {
-	/*width: 1195px;
-	height: 200px;
-	display: flex;
-	padding: 0 10px 0 10px;*/
-    width: 300px;
+	display: none;
+    width: 100%;
+}
+
+.box__container span {
+	font-weight: 100;
 }
 
 #box1_1{
-	height: 150px;
-	width: 150px;
-	background-image: url(../assets/images/photos/Gucci.jpeg); 
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/Snowberry.jpeg); 
 	 background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 #box1_2{
-	flex: 1;
-	background: blue;
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/SKIITFWA.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #box1_3{
-	flex: 1;
-	background: green;
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/JoMalone.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #box1_4{
-	flex: 1;
-	background: blue;
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/Mac.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 #box1_5{
-	flex: 1;
-	background: green;
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/SKIIHPP.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#box2_1{
-	flex: 1;
-	background: red;
+#box1_6{
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/Gucci.jpg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#box2_2{
-	flex: 1;
-	background: blue;
+#box1_7{
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/BVION.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#box2_3{
-	flex: 1;
-	background: red;
+#box1_8{
+	height: 200px;
+	width: 100%;
+	background-image: url(../assets/images/photos/SKIIThailand.jpeg); 
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#box2_4{
-	flex: 1;
-	background: blue;
-}
-#box2_5{
-	flex: 1;
-	background: red;
+
+.ourwork__padding{
+	padding-left: 25px;
+	padding-bottom: 25px;
 }
 
 /** main brand we work with **/
