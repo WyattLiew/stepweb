@@ -548,6 +548,14 @@ nav {
 	top:10;
 }
 
+.largebox__container span {
+	font-weight: 100;
+}
+
+.largebox-opacity__20 {
+	opacity: 20%;
+}
+
 #largebox1_1{
   background-image: url(../assets/images/photos/Snowberry.jpeg);  
   background-position: center;
@@ -765,7 +773,7 @@ nav {
 	font-size: 1.75em;
 	padding-top: 40px;
 	margin:0;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 	font-weight: 100;
 	text-align: left;
     padding-left: 150px;

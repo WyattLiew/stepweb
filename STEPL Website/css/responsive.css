@@ -430,8 +430,8 @@
 }
 
 .main-slider__slide h1 {
-    margin: 70px 0px 0 25px;
-    font-size: 1.5em;
+    margin: 70px 25px 0 25px;
+    font-size: 2em;
 }
 
 .section-heading__whatwedo h1 {
@@ -454,8 +454,8 @@
 }
 
 .section-heading__whoweare h3 {
-    font-size: 1em;
-    letter-spacing: 8px;
+    font-size: 1.35em;
+    letter-spacing: 4px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -471,9 +471,10 @@
 
 .section-heading__whatwebelieve h3 {
   margin-top: 6rem;
-  font-size: 1.2rem;
+  font-size: 1.35em;
   font-weight: 500;
   padding-left: 25px;
+  letter-spacing: 4px;
 }
 
 .section-heading__whatwebelieve p {
@@ -534,7 +535,7 @@
 
 .section-heading__howwework h3 {
   margin-top: 3rem;
-  font-size: 1.2rem;
+  font-size: 1.35em;
   padding-left: 25px;
   letter-spacing: 4px;
 }
@@ -648,7 +649,8 @@
 .section-heading__globalimpact h3 {
    
     margin-top: 2rem;
-    font-size: 1.2rem;
+    letter-spacing: 4px;
+    font-size: 1.35em;
     font-weight: 500;
     padding-left: 25px;
 }
@@ -782,6 +784,10 @@
   display: none;
 }
 
+.section-heading__globalimpact img {
+    padding-bottom: 10rem;
+}
+
 }
 
 
@@ -826,6 +832,7 @@
     .workwithus-button {
       width: 160px;
       height: 45px;
+      font-weight: bold;
     }
     .workwithus__topform .workwithus__innerform {
      width: 100%; 
