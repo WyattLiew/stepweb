@@ -300,28 +300,29 @@
 }
 
 #box1_1{
-  height: 350px;
+  height: 500px;
+  background-image: url(../assets/images/photos/SnowberryMedium.jpg); 
 }
 #box1_2{
- height: 350px;
+ height: 500px;
 }
 #box1_3{
-  height: 350px;
+  height: 500px;
 }
 #box1_4{
-  height: 350px;
+  height: 500px;
 }
 #box1_5{
-  height: 350px;
+  height: 500px;
 }
 #box1_6{
-  height: 350px;
+  height: 500px;
 }
 #box1_7{
-  height: 350px;
+  height: 500px;
 }
 #box1_8{
-  height: 350px;
+  height: 500px;
 }
 
 .main__ourwork .container {
