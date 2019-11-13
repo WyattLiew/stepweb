@@ -109,7 +109,9 @@ nav {
     height: 100%;
     position: absolute;
     opacity: 0;
+
 }
+
 
 .main-slider__slide h3 {
 	color: #ffffff;
@@ -1390,7 +1392,7 @@ input[value="Send"] {
 
 .footer .footer-content .footer__contact .footer__contacts span,
 .footer .footer-content .footer__contact .footer__contacts a {
-	display: block;
+	display: -webkit-box;
 	font-size: 1.1em;
 	margin-bottom: 8px;
 	color: #fff;
