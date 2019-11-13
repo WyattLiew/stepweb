@@ -124,7 +124,7 @@ nav {
 	color: #43d1d0;
 	margin: 50px 0px 0 155px;
 	font-size: 4.5em;
-	font-family: "Roboto", "sans-serif";
+	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 }
 
@@ -265,14 +265,14 @@ nav {
 	height:60px;
 	font-size: 1em;
 	font-weight: 500;
-	transition: all 0.3s ease 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .main__whatwedo button:hover {
 	background-color: #43d1d0;
 	box-shadow:0px 15px 20px rgba(67,209,208,0.4);
 	color: #fff;
-	transform: translateY(-7px);
+	/*transform: translateY(-7px);*/
 }
 
 .main__whatwedo .container {
@@ -820,8 +820,9 @@ nav {
 }
 
 .section-heading__globalimpact img {
-	width: 80%;
-	padding-bottom: 15rem;
+	width: 56%;
+	padding-right: 130px;
+	padding-bottom: 5rem;
 }
 
 
@@ -1372,8 +1373,8 @@ input[value="Send"] {
 .footer .footer-content .footer__logo img {
 	margin:30px;
 	padding-left: 50px;
-	width: 25%;
-    height: 22%;
+	width: 120px;
+    height: 50px;
 
 }
 

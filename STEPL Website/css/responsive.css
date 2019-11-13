@@ -9,9 +9,6 @@
     font-size: 28px !important;
   }
 
-  .footer .footer-content .footer__logo img {
-    width: 35%;
-}
 }
 
 
@@ -210,7 +207,7 @@
 
 
 .footer .footer-content .footer__logo img {
-    width: 20%;
+    /*width: 20%;*/
 }
 
 }
@@ -705,6 +702,11 @@
   display: block;
 }
 
+.ourwork__padding {
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
 #box1_1{
   height: 200px;
 }
@@ -743,7 +745,8 @@
 }
 
   .footer .footer-content .footer__logo img {
-    width: 35%;
+    width: 90px;
+    height:35px;
 }
   .navbar__logo {
     width: 90px;
