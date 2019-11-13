@@ -855,8 +855,13 @@
   display: none;
 }
 
-.section-heading__globalimpact img {
-    padding-bottom: 10rem;
+.globalimpact__imglarge {
+  display: none;
+}
+.globalimpact__imgsmall {
+  display: block;
+  padding-bottom: 5rem;
+  width: 100%;
 }
 
 }

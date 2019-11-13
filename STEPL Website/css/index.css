@@ -819,10 +819,14 @@ nav {
 	text-transform: uppercase;
 }
 
-.section-heading__globalimpact img {
-	width: 56%;
+.globalimpact__imglarge {
+	width: 70%;
 	padding-right: 130px;
 	padding-bottom: 5rem;
+}
+
+.globalimpact__imgsmall {
+	display: none;
 }
 
 
