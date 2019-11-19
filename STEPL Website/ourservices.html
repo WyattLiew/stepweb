@@ -10,6 +10,8 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
 <link rel="stylesheet" type="text/css" href="css/index.css">
 <link rel="stylesheet" type="text/css" href="css/pages.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -37,24 +39,24 @@
 		
 	</div>
 </div>
-<div class="main-slider__middle main-slider__slidershow">
-	<div class="main-slider__slides main-slider__images">
+<div class="main-slider__slidershow swiper-container">
+	<div class="main-slider__images swiper-wrapper">
 
-		<div class="main-slider__slide">
+		<div class="main-slider__slide swiper-slide">
 			<h3>What we provide</h3>
 			<h1>BUSINESS INNOVATION</h1>
 		</div>
-		<div class="main-slider__slide ">
+		<div class="main-slider__slide swiper-slide">
 			<h3>What we provide</h3>
 			<h1>PRODUCT AND SERVICE DESIGN</h1>
 		</div>
-		<div class="main-slider__slide ">
+		<div class="main-slider__slide swiper-slide">
 			<h3>What we provide</h3>
 			<h1>USER EXPERIENCE DESIGN</h1>
 		</div>
 		
 	</div>
-	<div class="main-slider__navigation" id="main-slider__navigation"></div>
+	<div class="swiper-pagination"></div>
 </div>
 </section>
 
@@ -63,7 +65,7 @@
 	<div class="section-heading__howwework">
 		<h3>How We Work</h3>
 		<h1>
-			from <span class="animation-text__whatwebelieve">start to completion</span>, we work closely to meet the <span class="animation-text__whatwebelieve">needs</span> of each client
+			from <span class="animation-text__whatwebelieve">start to end</span>, we work closely to meet the <span class="animation-text__whatwebelieve">needs</span> of each client
 		</h1>
 		<!-- <div class="processCircle__container">
 		<button id="process__btn1"></button>
@@ -111,5 +113,21 @@
 
 <script type="text/javascript" src="js/pages.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 </html>
