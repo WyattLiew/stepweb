@@ -304,25 +304,25 @@
   background-image: url(../assets/images/photos/SnowberryMedium.jpg); 
 }
 #box1_2{
- height: 500px;
+ height: 550px;
 }
 #box1_3{
-  height: 500px;
+  height: 550px;
 }
 #box1_4{
-  height: 500px;
+  height: 550px;
 }
 #box1_5{
-  height: 500px;
+  height: 550px;
 }
 #box1_6{
-  height: 500px;
+  height: 550px;
 }
 #box1_7{
-  height: 500px;
+  height: 550px;
 }
 #box1_8{
-  height: 500px;
+  height: 550px;
 }
 
 .main__ourwork .container {
@@ -710,6 +710,7 @@
 
 #box1_1{
   height: 305px;
+   background-image: url(../assets/images/photos/Snowberry.jpeg); 
 }
 #box1_2{
   height: 305px;
