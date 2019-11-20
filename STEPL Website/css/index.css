@@ -107,6 +107,11 @@ nav {
     background-size: cover;
 }
 
+.video {
+	width:1400px; 
+	height:800px;
+}
+
 
 /*.swiper-slide {
 	background-color: #141414;
