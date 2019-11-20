@@ -107,7 +107,7 @@ nav {
     background-size: cover;
 }
 
-.video {
+.whatwebelieve__video {
 	width:1400px; 
 	height:800px;
 }
@@ -914,8 +914,9 @@ nav {
 }
 
 .section-heading__howwework .main-howwework__img2 {
-	margin: 8rem 0;
-	width: 80%;
+	margin: 8rem 40px;
+	width: 75%;
+	display: none;
 }
 
 /*.section-heading__howwework .main-howwework__img2 img {

@@ -96,6 +96,11 @@
   margin: 0 !important;
 }
 
+.whatwebelieve__video {
+  width:982px; 
+  height:560px;
+}
+
 .section-heading__ourwork h3 {
   margin-top: 2rem;
   color: #881C67;
@@ -205,6 +210,13 @@
   margin: 0!important;
 }
 
+.whatwebelieve__video {
+  display: none;
+}
+
+.main-howwework__img2 {
+  display: block !important;
+}
 
 .footer .footer-content .footer__logo img {
     /*width: 20%;*/
@@ -821,8 +833,8 @@
   }
 
   .section-heading__howwework .main-howwework__img2 {
-    margin: 3rem 0;
-    width: 100% !important;
+    margin: 3rem 15px;
+    width: 80% !important;
   }
 
   .section-heading__ourcapabilities img {
