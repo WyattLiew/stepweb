@@ -82,13 +82,35 @@ nav {
 	background: #fff;
 }
 
-.main-slider__slides {
-    background-color: #141414;
+.main-slider__slide {
+   background-color: #141414;
 }
 
-.swiper-slide {
-	background-color: #141414;
+.main-slider__slide1 {
+    background-image: url(../assets/ai/Businessinnovation.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.main-slider__slide2 {
+    background-image: url(../assets/ai/ProductserviceDesign.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-slider__slide3 {
+    background-image: url(../assets/ai/UserExperienceDesign.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*.swiper-slide {
+	background-color: #141414;
+}*/
 
 
 
@@ -298,11 +320,11 @@ nav {
 
 /** animation text */
 .animation-text{
-        display: none;
+        /*display: none;*/
 }
 
 .animation-text__whatwebelieve {
-	display: none;
+	/*display: none;*/
 }
 
 /** main what we believe **/
@@ -339,11 +361,6 @@ nav {
 
 .section-heading__whatwebelieve h1 span{
 	color: #43d1d0;
-}
-
-/** animation text */
-.animation-text{
-        display: none;
 }
 
 

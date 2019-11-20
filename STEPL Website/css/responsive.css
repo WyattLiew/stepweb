@@ -866,6 +866,17 @@
   width: 100%;
 }
 
+.main-slider__slide1 {
+    background-size: 400px;
+}
+.main-slider__slide2 {
+    background-size: 400px;
+}
+.main-slider__slide3 {
+    background-size: 400px;
+}
+
+
 }
 
 
