@@ -235,6 +235,18 @@
   display: block;
 }
 
+.main-slider__slide1 {
+    background-size: 830px;
+}
+
+.main-slider__slide2 {
+    background-size: 830px;
+}
+
+.main-slider__slide3 {
+    background-size: 830px;
+}
+
 /*.section-heading__whatwedo h3 {
   font-size: 1.45em;
 }*/
