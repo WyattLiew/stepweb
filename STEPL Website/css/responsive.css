@@ -9,6 +9,71 @@
     font-size: 28px !important;
   }
 
+  .largebox__container {
+    display: none;
+  }
+
+  .box__container {
+    display: block;
+  }
+
+  .main__ourwork .container {
+     padding-left: 0px; 
+}
+
+.main-slider__slide h3{
+  margin: 85px 0px 0 60px;
+}
+.main-slider__slide h1 {
+  margin: 50px 0px 0 60px;
+}
+
+.section-heading__ourwork h1,
+.section-heading__globalimpact h3,
+.section-heading__globalimpact h1 ,
+.section-heading__ourservice h1,
+.section-heading__howwework h3,
+.section-heading__howwework h1,
+.section-heading__getintouch h1,
+.section-heading__getintouch h3,
+.section-heading__workwithus h3,
+.main__whoweare .container,
+.main__whatwebelieve .container  {
+    padding-left: 60px;
+}
+
+
+#box1_1{
+  height: 750px;
+  background-image: url(../assets/images/photos/SnowberryMedium.jpg); 
+}
+#box1_2{
+ height: 750px;
+}
+#box1_3{
+  height: 750px;
+}
+#box1_4{
+ height: 750px;
+}
+#box1_5{
+  height: 750px;
+}
+#box1_6{
+  height: 750px;
+}
+#box1_7{
+  height: 750px;
+}
+#box1_8{
+  height: 750px;
+}
+
+.box__container > h3 {
+  font-size: 2rem;
+}
+
+
 }
 
 
@@ -123,7 +188,7 @@
 }
 
 .section-heading__ourservice h1 {
-  font-size: 3rem;
+  font-size: 4.5em;
 }
 
 .section-heading__ourservice h3 {
