@@ -40,6 +40,7 @@
 <div id="main-whatwedo__background">
 <section class="main__whatwedo">
 <div class="container">
+	<button id="goFS">Go fullscreen</button>
 	<div class="section-heading__whatwedo">
 		<h1>TECHNOLOGY .</h1>
 		<h3>Design | Innovation | Experience Design</h3>
@@ -185,6 +186,13 @@
   }
 
 })();
+	 var goFS = document.getElementById("goFS");
+  goFS.addEventListener("click", function() {
+      
+   const elem = document.documentElement;
+   if (elem.requestFullscreen) {elem.requestFullscreen()}
+   
+  }, false);
   </script>
 </body>
 </html>
